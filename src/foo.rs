@@ -1,3 +1,3 @@
 pub fn say_foo() {
-    println!("Foo from foo.rs");
+    println!("src > bar(bar.rs) > Foo(foo.rs) => say_foo");
 }
