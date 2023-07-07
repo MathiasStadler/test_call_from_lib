@@ -1,5 +1,12 @@
-use test_call_from_lib::GREETING;
+/*use test_call_from_lib::GREETING;
 
 fn main() {
     println!("{}", GREETING);
+}
+*/
+
+use test_call_from_lib::bar::bar;
+
+fn main() {
+    bar();
 }

@@ -1,5 +1,5 @@
 use crate::foo;
 
-fn bar() {
+pub fn bar() {
     foo::say_foo();
 }
